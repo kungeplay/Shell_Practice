@@ -17,6 +17,12 @@
 # Your script should output the tenth line, which is:
 
 # Line 10
-
+#额原来有三种方法分别是用awk,sed,以及tail和head结合的方法
+# awk:
+#awk 'NR==10' file.txt
+#sed:
+#sed -n '10p' file.txt
+#tail与head相组合
+#tail -n+10 file.txt | head -n1
 Context=$(sed -n '10,10p' < file.txt)
 echo $Context
