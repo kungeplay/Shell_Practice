@@ -18,8 +18,8 @@
 #if [ $url ];then
 #	read -p "请输入压力测试次数：" -t 30 num
 #	if [$num ]
-#declare url="http://l-wbd13.f.cn8.qunar.com:8080/twell/debug/mobilesearch?queryId=&depCity=%E5%8C%97%E4%BA%AC&arrCity=%E9%A6%99%E6%B8%AF&depDate=2017-04-26&retDate=&flightCode=&sortType=5&start=0&size=1000&adultNum=1&childNum=0&filters=&debug=false&isSelection=false&waittime=1"
-declare url="http://l-iwbd7.f.cn2.qunar.com:8080/twell/debug/mobilesearch?queryId=&depCity=%E7%BA%BD%E7%BA%A6&arrCity=%E9%A6%99%E6%B8%AF&depDate=2017-04-06&retDate=&flightCode=&sortType=5&start=0&size=1000&adultNum=1&childNum=0&filters=&debug=false&isSelection=false&waittime=1"
+#declare url="http://l-wbd13.f.cn8.***.com:8080/twell/debug/mobilesearch?queryId=&depCity=%E5%8C%97%E4%BA%AC&arrCity=%E9%A6%99%E6%B8%AF&depDate=2017-04-26&retDate=&flightCode=&sortType=5&start=0&size=1000&adultNum=1&childNum=0&filters=&debug=false&isSelection=false&waittime=1"
+declare url="http://l-iwbd7.f.cn2.***.com:8080/twell/debug/mobilesearch?queryId=&depCity=%E7%BA%BD%E7%BA%A6&arrCity=%E9%A6%99%E6%B8%AF&depDate=2017-04-06&retDate=&flightCode=&sortType=5&start=0&size=1000&adultNum=1&childNum=0&filters=&debug=false&isSelection=false&waittime=1"
 declare -i num=1000
 declare -i i=1
 declare  sum=0.0
